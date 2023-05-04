@@ -1,0 +1,172 @@
+@import "vars"
+@import "fonts"
+
+//start global style
+body 
+    font-family: $main-font
+    font-size: 15px
+    margin: 0 
+    padding: 0
+    color: #757575
+    font-weight: 500
+.container 
+    width: 1080px
+    max-width: 88vw
+    margin-left: auto 
+    margin-right: auto   
+//end global style
+
+//start wwrning style 
+.warning 
+    padding-top: 12.75px 
+    padding-bottom: 12.75px
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3)
+    color: #721c24
+    font-size: 16px
+    line-height: 1.5
+    position: absolute 
+    top: 0 
+    left: 0 
+    width: 100%
+    span 
+        font-weight: 700
+.triangle 
+    width: 18px
+    position: relative 
+    top: 4px
+//end warning style
+
+//start top header style
+.top-header 
+    padding-top: 100px
+    padding-bottom: 20px
+    .container 
+        display: flex 
+        justify-content: space-between 
+        align-items: center
+.trustpilot
+    img 
+        width: 204px
+.top-header__menu
+    display: flex 
+    align-items: center
+    span 
+        display: block
+        padding: 0 8px
+.top-header__menu-link 
+    text-decoration: none
+    color: #757575
+//end top header style 
+
+//start header style 
+.header
+    background: linear-gradient(to bottom,rgba(114,85,218,1) 0%,rgba(137,109,237,1) 100%) 
+    color: #fff
+    padding-top: 25px 
+    padding-bottom: 25px
+    .container 
+        display: flex 
+        justify-content: space-between
+        align-items: center
+.logo
+    position: relative
+    top: 5px
+    img 
+        width: 300px
+.header__menu
+    display: flex 
+    align-items: center
+    img 
+        width: 24px
+        margin-left: 18px
+//end header style 
+
+//start bread crumbs style 
+.bread-crumbs
+    padding-top: 30px 
+    padding-bottom: 15px
+    span 
+        color: #9A9A9A
+.bread-crumbs__link
+    color: #9A9A9A
+    font-weight: 400
+    text-decoration: none
+.bread-crumbs__link.active 
+    text-decoration: underline
+//end bread crumbs style
+
+//start footer style 
+.footer 
+    padding-top: 35px 
+    padding-bottom: 20px
+    background: #000
+    font-size: 14px
+    .container 
+        display: flex
+        justify-content: space-between
+
+.footer__link 
+    display: block 
+    color: #fff
+    text-decoration: none 
+    margin-bottom: 20px
+.footer__social
+    display: flex 
+    align-items: center
+    display: flex 
+    justify-content: center
+    margin-bottom: 10px
+    img 
+        width: 30px
+        margin: 15px
+.footer__col
+    width: 33.3%
+.footer__col--pay 
+    text-align: right
+.copy 
+    text-align: center
+.footer__pay-img
+    img 
+        width: 40px
+        margin-top: 10px
+        margin-left: 10px
+//end footer style 
+
+//start product card
+.product-card 
+    padding-top: 26px
+    padding-bottom: 35px
+    .container 
+        display: flex
+.product-card__img-wrapper
+    width: 45% 
+    padding-top: 40px
+    img 
+        width: 100%
+.product__title 
+    font-size: 38px
+    font-family: $secondary-font
+    color: #444
+    font-weight: 700
+.product-card__content
+    width: 55%
+.product__num
+    color: #B2B2B2
+    padding-bottom: 10px
+    padding-top: 5px
+.stars
+    img 
+        width: 20px
+.product-card__reviews
+    display: flex 
+    align-items: center
+    color: #B2B2B2
+.product-card__reviews-text
+    margin-left: 5px
+//end product card 
+
+
+@import "media"
+
+
+
