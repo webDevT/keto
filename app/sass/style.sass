@@ -254,8 +254,76 @@ input.qtyminus
     align-items: center
     width: 360px
     max-width: 100%
+    transition: all 0.5s
+    svg 
+        fill: #fff
+        width: 12px
+        margin-left: 10px
+.button:hover 
+    background: #ffff61
+    color: #000
+    transform: scale(1.05)
+    svg 
+        fill: #000
+.description__title
+    color: #724ad9
+    font-size: 25px 
+    font-family: $secondary-font
+    text-decoration: underline
+    margin-top: 35px
 //end product card 
 
+//start reviews style
+.reviews-title 
+    display: flex 
+    align-items: center
+    margin-bottom: 40px
+    .product__title 
+        margin-top: 0 
+        margin-bottom: 0
+    .description__title 
+        margin-top: 0 
+        margin-bottom: 0
+        margin-left: 5px
+.reviews-section 
+    padding-bottom: 100px
+    padding-top: 30px
+.reviews__item-title 
+    font-size: 18px 
+    font-weight: 700
+    font-family: $secondary-font
+    color: #444
+    margin-bottom: 10px
+.review-date
+    color: #724ad9
+    margin-top: 10px
+.reviews-section 
+    .container 
+        width: 900px 
+        max-width: 88vw
+.reviews__item
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2)
+    border-radius: 10px 
+    padding: 25px 40px
+    margin-bottom: 30px
+    p 
+        line-height: 1.5
+.login-button 
+    border-radius: 10px 
+    background: linear-gradient(to bottom,rgba(114,85,218,1) 0%,rgba(137,109,237,1) 100%)
+    display: flex 
+    justify-content: center 
+    align-items: center 
+    width: 120px 
+    height: 40px 
+    color: #fff 
+    text-decoration: none
+.login-wrapper
+    display: flex 
+    align-items: center
+.login-title 
+    margin-left: 15px
+//end reviews style
 
 @import "media"
 
